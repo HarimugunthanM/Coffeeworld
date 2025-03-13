@@ -1,0 +1,683 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to top,rgba(0,0,0,0.5)10%,rgba(131, 26, 26, 0.507)50%),url(images/background.jpg);
+    background-size: 100% 100%;
+    background-position: cover;
+    height: 600vh;
+    width: 1865px;
+    position: relative;
+    background-attachment: fixed;
+}
+header{
+    height:100px ;
+    width: 1865px;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+
+}
+.navbar{
+
+       background-color:rgba(0, 0, 0, 0.967);
+       height: 100px;
+       width: 1865px;
+       display: flex;
+       position: fixed;
+       z-index: 999;
+
+
+}
+.mainmenu{
+display: flex;
+width: 20px;
+position: absolute;
+left: 1100px;
+top: 30px;
+
+
+}
+ul li{
+    list-style: none;
+    align-items: end;
+    padding-right: 100px;
+
+}
+
+ a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color:white;
+    text-decoration: none;
+}
+a:hover{
+    box-shadow: 0px  0px 10px 10px red;
+
+
+
+}
+.btn:active{
+    background: url(images/coffeeg.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75% 75%;
+    color: transparent;
+}
+.icon img{
+    height:90px;
+    width: 90px;
+    margin-left: 30px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    display: flex;
+
+}
+.cw{
+    color: white;
+    left: 140px;
+    position: absolute;
+    top: 30px;
+    display: flex;
+    box-shadow: 0px  0px 10px 10px red;
+
+}
+.home{
+    width: 1865px;
+    height: 800px;
+    background-color:transparent;
+    position:absolute;
+    top: 150px;
+
+}
+.content{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    left: 50px;
+    top: 400px;
+    background-color: transparent;
+}
+.para{
+    position: absolute;
+    top: 40px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    font-family: 'Viner Hand ITC';
+
+}
+.btn08{
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    left:310px;
+    top: 280px;
+
+    display: flex;
+    border-color: green;
+    border: 2px solid rgb(224, 130, 6);
+}
+.btn08 p .anchor{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    position: absolute;
+    left: 37px;
+    top: 20px;
+
+
+}
+.search{
+    width: 250px;
+    height: 40px;
+    border-bottom-color: rgb(247, 244, 241);
+    position: absolute;
+    left: 550px;
+    text-indent: 10px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+
+
+
+
+}
+.search::placeholder{
+    color: aliceblue;
+}
+.search:focus{
+    outline: none;
+}
+.btn{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    left:800px;
+    background-color: rgb(138, 92, 8);
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat:no-repeat ;
+    color: white;
+    box-shadow: 2px 1px 1px 1px rgb(250, 247, 247);
+
+}
+
+.variety{
+    width: 1865px;
+    height: 2000px;
+    background-color:transparent;
+    position: absolute;
+    top: 1000px;
+}
+.coffee{
+    color:white;
+    position: absolute;
+    top: 70px;
+    left: 700px;
+    font-size: 100px;
+
+    z-index: 0;
+   font-family:  Viner Hand ITC;
+}
+.coffeee{
+    color:white;
+    position: absolute;
+    top: 80px;
+    left: 550px;
+    font-size: 100px;
+
+    z-index: 0;
+    font-family:  Viner Hand ITC;
+
+}
+
+.cappucino{
+    height:350px;
+    width: 800px;
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.315);
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    display: flex;
+    transition: 1s;
+    z-index: 0;
+
+}
+.img {
+    height: 300px;
+    width: 750px;
+    background-color: rgba(0, 0, 0, 0.144);
+    position: absolute;
+    top:20px;
+    left: 30px;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px white;
+    display: flex;
+
+}
+.cimg{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    display: flex;
+
+
+}
+.cimg:hover{
+   height: 210px;
+   width: 220px;
+   animation-name: jil;
+   animation-duration:  5s;
+   animation-iteration-count: infinite;
+
+}
+
+.about{
+    color: white;
+    height: 150px;
+    width: 400px;
+    position:absolute ;
+    left: 300px;
+    top: 100px;
+}
+.btn1{
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    left:600px;
+    top: 220px;
+
+    display: flex;
+    border-color: green;
+
+}
+.btn1 p a{
+    color:white;
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    border: 2px solid white;
+
+}
+.btn1 p a:hover{
+    background: url(images/blend.gif);
+    background-position: cover;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    color: transparent;
+}
+
+.lattee{
+    height:350px;
+    width: 800px;
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.315);
+    position: absolute;
+    top: 700px;
+    left: 1000px;
+    display: flex;
+    transition: 1s;
+    z-index: 0;
+
+}
+.lat{
+    position: absolute;
+   top: -30px;
+   font-size: 20px;
+}
+.espresso{
+    height:350px;
+    width: 800px;
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.315);
+    position: absolute;
+    top: 1100px;
+    left: 150px;
+    display: flex;
+    transition: 1s;
+    z-index: 0;
+
+}
+.espr{
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.esp{
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.amer{
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+}
+
+.ao{
+    position: absolute;
+    top: -30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+
+.americano{
+    height:350px;
+    width: 800px;
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.315);
+    position: absolute;
+    top: 1500px;
+    left: 1000px;
+    display: flex;
+    transition: 1s;
+    z-index: 0;
+
+
+}
+.king{
+    height:350px;
+    width: 800px;
+    display: flex;
+    background-color:rgba(255, 0, 0, 0.315);
+    position: absolute;
+    top: 1900px;
+    left: 150px;
+    display: flex;
+    transition: 1s;
+    z-index: 0;
+
+}
+abbr{
+    text-decoration: none;
+}
+.btn010{
+    height: 20px;
+    width: 40px;
+
+
+}
+
+.branch{
+    height: 1000px;
+    width: 1865px;
+    background-color:transparent;
+    position: absolute;
+    top: 3400px;
+}
+hr{
+    border: 2px dotted brown;
+}
+
+
+ section:target{
+    background-color: rgba(54, 54, 54, 0.329);
+}
+ div:target{
+    background-color: rgba(54, 54, 54, 0.329);
+}
+
+.dropdown{
+    color: aliceblue;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    background-color:transparent;
+
+}
+.branches{
+    color: aliceblue;
+    display: none;
+    position: absolute;
+    top: -10px;
+    left: 100px;
+    background-color:transparent;
+
+}
+.dropdown li{
+    padding: 20px;
+    border:2px solid orange;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.branches li{
+    padding: 30px;
+    border:2px solid orange;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+
+}
+.varr:hover .dropdown{
+    display: block;
+
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    transition: 2s;
+
+
+}
+.bran:hover .branches{
+    display: block;
+
+    position: absolute;
+    top: 20px;
+    left:275px;
+    transition: 2s;
+
+
+}
+
+.tnager{
+    width: 25%;
+    height: 70%;
+    background-color: rgba(194, 47, 47, 0.547);
+    position: absolute;
+    top: 30%;
+    bottom: 1%;
+    left: 8%;
+
+}
+.brtext{
+    font-size: 80px;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+
+    color: white;
+    font-family:  Viner Hand ITC;
+}
+.conttext{
+    font-size: 80px;
+    position: absolute;
+    left: 40%;
+    top: 100px;
+    background-color:white;
+    background-clip: text;
+    background-position: center;
+    color: transparent;
+    font-family:  Viner Hand ITC;
+}
+.tnimg{
+    height: 350px;
+    width: 100%;
+}
+.contnag{
+    font-size: 25px;
+    position: absolute;
+    top: 51%;
+    left: 22%;
+    color: rgb(251, 253, 254);
+}
+.tnagarpara{
+    position: absolute;
+    top:57% ;
+    left: 20px;
+    justify-content: center;
+    color: aliceblue;
+}
+.tnagarbtn{
+    width:100%;
+    height: 1cm;
+    background-color: rgb(205, 103, 29);
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: aliceblue;
+}
+.kknager{
+    width: 25%;
+    height: 70%;
+    background-color: rgba(194, 47, 47, 0.547);
+    position: absolute;
+    top: 30%;
+    bottom: 1%;
+    left: 37%;
+
+}
+.kkimg{
+    height: 350px;
+    width: 100%;
+}
+.contkkag{
+    font-size: 25px;
+    position: absolute;
+    top: 51%;
+    left: 22%;
+    color: rgb(251, 253, 254);
+}
+.kknagarpara{
+    position: absolute;
+    top:57% ;
+    left: 20px;
+    justify-content: center;
+    color: aliceblue;
+}
+.kknagarbtn{
+    width:100%;
+    height: 1cm;
+    background-color: rgb(205, 103, 29);
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: aliceblue;
+}
+.bcw{
+    position: absolute;
+    top: 83%;
+    left: 15%;
+    font-size: 60px;
+    color: white;
+    font-family: Viner Hand ITC;
+}
+.annanager{
+    width: 25%;
+    height: 70%;
+    background-color: rgba(194, 47, 47, 0.547);
+    position: absolute;
+    top: 30%;
+    bottom: 1%;
+    left: 65%;
+
+}
+.annaimg{
+    height: 350px;
+    width: 100%;
+}
+.contannaag{
+    font-size: 25px;
+    position: absolute;
+    top: 51%;
+    left: 22%;
+    color: rgb(251, 253, 254);
+}
+.annanagarpara{
+    position: absolute;
+    top:57% ;
+    left: 20px;
+    justify-content: center;
+    color: aliceblue;
+}
+.annanagarbtn{
+    width:100%;
+    height: 1cm;
+    background-color: rgb(205, 103, 29);
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    color: aliceblue;
+}
+#foot{
+    height: 900px;
+    width: 100%;
+    background:transparent;
+    position: relative;
+    top: 80%;
+
+}
+.footmain{
+    height:60%;
+    width: 75%;
+    background-color: transparent;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+.footimg{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    background-image: url(images/contimge.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.foottitle{
+    color: aliceblue;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    font-size: 80px;
+
+}
+.form{
+    width: 50%;
+    height: 100%;
+    background-image: url(images/formbg.jfif);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100% 100%;
+}
+h2{
+
+    font-weight: bolder;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 40px;
+
+}
+input::placeholder{
+    color: black;
+}
+textarea::placeholder{
+    color: black;
+}
+.formname{
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    width:20%;
+    height:4%;
+    border-color: black;
+}
+.formmail{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width:20%;
+    height:4%;
+    border-color: black;
+}
+.formdes{
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    width:20%;
+    height:14%;
+    border-color: black;
+}
+.submitbtn{
+    position: absolute;
+    top: 63%;
+    left: 15%;
+    width:10%;
+    height:9%;
+    border-color: rgb(217, 210, 210);
+    background-color: white;
+    font-size: 20px;
+}
